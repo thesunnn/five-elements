@@ -1,11 +1,11 @@
 @font-face {
   font-family: "hanna";
-  src: url("fonts/BMHANNAAir_ttf.ttf");
+  src: url("asset/fonts/BMHANNAAir_ttf.ttf");
 }
 
 @font-face {
   font-family: "kirang";
-  src: url("fonts/BMKIRANGHAERANG-TTF.ttf");
+  src: url("asset/fonts/BMKIRANGHAERANG-TTF.ttf");
 }
 
 * {
