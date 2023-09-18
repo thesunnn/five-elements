@@ -56,6 +56,26 @@ body {
   /* background-color: #f6f6f6; */
 }
 
+
+.bg-video {
+  /* background-color: #ffffff; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.bg-video__content {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; 
+  /* background-size: cover 와 비슷함. (HTML 요소 or 비디오와 작동) */
+  
+}
+
+
 /*--header--*/
 .header {
   min-height: 100vh;
@@ -136,7 +156,7 @@ main {
 }
 
 .text-box img{
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   width: 100%;
 }
 
@@ -196,20 +216,6 @@ main {
   font-size: 14px;
   line-height: 28px;
   color: #473e3e;
-}
-
-.word {
-  position: absolute;
-  cursor: grab;
-  font-family: "NixgonFonts";
-  font-weight: 300;
-  font-size: 28px;
-  font-weight: 300;
-  color: rgba(65, 80, 79, 0.744);
-}
-.word.highlighted {
-  font-weight: 500;
-  color: #71bbb0;
 }
 
 a {
